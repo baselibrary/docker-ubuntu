@@ -1,7 +1,5 @@
 # baselibrary/ubuntu [![Docker Repository on Quay.io](https://quay.io/repository/baselibrary/ubuntu/status "Docker Repository on Quay.io")](https://quay.io/repository/baselibrary/ubuntu)
 
-[![](http://dockeri.co/image/baselibrary/ubuntu)](https://registry.hub.docker.com/u/baselibrary/ubuntu/)
-
 ## Installation and Usage
 
     docker pull quay.io/baselibrary/ubuntu:${VERSION:-latest}
