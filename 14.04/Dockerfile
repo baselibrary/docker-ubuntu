@@ -11,7 +11,7 @@ RUN \
 ## Install packages 
 RUN \
   apt-get update &&\
-  apt-get install -y --no-install-recommends curl wget ansible language-pack-en
+  apt-get install -y --no-install-recommends curl wget ansible apt-transport-https language-pack-en
 
 ## Install utilities
 RUN \
