@@ -1,4 +1,4 @@
-NAME = quay.io/baselibrary/ubuntu
+NAME = baselibrary/ubuntu
 REPO = git@github.com:baselibrary/docker-ubuntu.git
 TAGS = 14.04
 
@@ -17,4 +17,4 @@ sync-branches:
 
 .PHONY: $(TAGS)
 $(TAGS):
-	docker build -t $(NAME):$@ $@
+	docker build --rm -t $(NAME):$@ $@
