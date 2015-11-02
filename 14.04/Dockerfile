@@ -16,7 +16,7 @@ RUN \
 ## Install utilities
 RUN \
   wget -O /bin/gosu   "https://github.com/tianon/gosu/releases/download/1.6/gosu-amd64" &&\
-  wget -O /bin/tini   "https://github.com/krallin/tini/releases/download/v0.8.0/tini-static" &&\
+  wget -O /bin/tini   "https://github.com/krallin/tini/releases/download/v0.8.2/tini-static" &&\
   wget -O /bin/forego "https://godist.herokuapp.com/projects/ddollar/forego/releases/current/linux-amd64/forego" &&\
   chmod u+x /bin/gosu &&\
   chmod u+x /bin/tini &&\
